@@ -10,7 +10,8 @@
       href="https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@0,400..900;1,400..900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preload" href="./css/style.min.css" as="style" />
+    <link rel="stylesheet" href="./css/style.min.css" />
   </head>
   <body>
     <div class="estrutura">
@@ -103,20 +104,32 @@
           </div>
         </div>
 
-        <p>
+        <p class="col-wide">
           É um sobrevivente da Era do Gelo, originário do Pleistoceno Superior,
           cerca de 300 mil anos atrás.[2] O sequenciamento de DNA e estudos
           genéticos reafirmam que o lobo cinzento é ancestral do cão doméstico.
         </p>
 
-        <img src="img/wolf1.jpg" alt="Wolf 1" width="300" height="365" />
+        <img
+          src="img/wolf1.jpg"
+          alt="Wolf 1"
+          class="imagem-1"
+          width="300"
+          height="365"
+        />
 
-        <p>
+        <p class="destaque">
           É um sobrevivente da Era do Gelo, originário do Pleistoceno Superior,
           cerca de 300 mil anos atrás.[2] O sequenciamento de DNA e estudos.
         </p>
 
-        <img src="img/wolf2.jpg" alt="Wolf 2" width="300" height="266" />
+        <img
+          src="img/wolf2.jpg"
+          alt="Wolf 2"
+          class="imagem-2"
+          width="300"
+          height="266"
+        />
 
         <p>
           O peso e tamanho dos lobos variam muito em todo o mundo, tendendo a
@@ -132,7 +145,7 @@
           Alasca, Canadá,[8] e na antiga União Soviética.
         </p>
 
-        <blockquote class="citacao">
+        <blockquote class="citacao col-wide">
           <p>
             “Há algo no uivar do lobo que tira um homem do aqui e agora e o
             transporta para uma floresta da mente.”
@@ -163,7 +176,13 @@
           </p>
         </div>
 
-        <img src="img/wolf3.jpg" alt="Wolf 3" width="620" height="270" />
+        <img
+          src="img/wolf3.jpg"
+          alt="Wolf 3"
+          class="col-wide"
+          width="620"
+          height="270"
+        />
       </main>
 
       <aside class="anuncios">
